@@ -86,7 +86,7 @@
 .profile {
     border-radius: 50%;
     border: 8px solid #fff;
-    width: 380px;
+    width: 350px;
     height: auto;
     box-shadow: 20px 20px 45px rgba(0,0,0,0.2); 
     animation: float 3s ease-in-out infinite;
