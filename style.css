@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Londrina+Outline&display=swap');
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.list-icon {
+  font-size: 28px;
+  color:  #00008B;
+  border: solid 3px  #00008B;
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+.nav-pills .nav-link {
+  border-radius: 30px; 
+  transition:  0.3s, color 0.3s;
+  font-weight: 600;
+  font-size: 14px;
+  color:  #00008B;
+}
+.nav-pills .nav-link:hover {
+  background-color: #0d6efd;
+  color: #ffffff;   
+  transform: scale(1.1);
+}
+.name-font {
+  font-family: "Frijole", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.3s ease-in-out;
+  color:  #00008B;
+}
+.name-font:hover {
+  color: #8b0404; 
+  transform: scale(1.05);
+}
+.it {
+  font-style: italic;
+  font-weight: 800;
+  color: #00008B;
+}
+.wave {
+  display: inline-block;
+  animation: waveHand 1.5s infinite;
+  transform-origin: 70% 70%; 
+}
+@keyframes waveHand {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.typing {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.typed {
+  color: #00008B;
+  font-weight: 800;
+  font-style: italic;
+}
+.icon-style {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px  #00008B;
+  border-radius: 30%;          
+  background: #ffffff;        
+  color:  #00008B;              
+  font-size: 24px;             
+  cursor: pointer;
+  margin: 3px;
+  transition: all 0.3s ease;
+}
+
+.icon-style:hover {
+  background:  #00008B;          
+  color: #ffffff;                 
+  transform: scale(1.1);     
+}
+.profile {
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 20px 20px 45px rgba(0,0,0,0.2); 
+}
